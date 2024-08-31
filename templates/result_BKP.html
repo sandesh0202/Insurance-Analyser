@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    Bupa Insurance Services
+</head>
+
+<body>
+    <div style="width:50%; float: left; display: inline-block;">
+        <p>Patient Name - {{name}}</p>
+        <p>Patient Address - {{address}}</p>
+        <p>Claim Type - {{claim_type}}</p>
+        <p>Claim Reason - {{claim_reason}}</p>
+        <p>Medical Facility - {{medical_facility}}</p>
+        <p>Medical Provider - {{medical_provider}}</p>
+        <p>Total Claim Ammount - {{total_claim_amount}}</p>
+        <p>Total Expenses - {{total_expenses}}</p>
+        <p>Description - {{description}}</p>
+
+        <span style="font-size: 15px; margin: 21px 0; display: block;">
+            {{ output | safe }}
+        </span>
+
+    </div><br><br>
+
+
+
+</body>
+
+</html>
